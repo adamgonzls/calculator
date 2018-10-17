@@ -1,2 +1,6 @@
-# Product Landing Page
-Built a product page for a solar company inspired by [Solar Cloud - Dribbble](https://dribbble.com/shots/3813392-Solar-cloud) and [Vivint Solar](https://www.vivintsolar.com/about-us).
+# Calculator
+Daily UI Task #4
+## Inspired by
+*[Daily Ui Challenge 004 - Calculator](https://dribbble.com/shots/4913773-Daily-Ui-Challenge-004-Calculator)
+*[Calculator Daily UI #004](https://dribbble.com/shots/3210947-Calculator-Daily-UI-004)
+*[Daily UI #004 Calculator](https://dribbble.com/shots/4957928-Daily-UI-004-Calculator)
