@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>SolarCloud</title>
+  <title>Calculator</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
@@ -16,193 +16,20 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-  <div class="page-container">
-    <header id="header">
-      <span><img src="images/solarcloud-logo.jpg" alt="SolarCloud logo" id="header-img"></span>
-      <nav id="nav-bar">
-        <span><a class="nav-link" href="https://adamgonzls.github.io/fcc-product-landing/">Go Solar</a></span> 
-      </nav>
-    </header>
-    <div class="content-container">
-      <nav class="main-nav">
-        <ul>
-          <li id="tone"><a href="#tone_section">Tone</a></li>
-          <li id="brading"><a href="#branding_section">Branding</a></li>
-          <li id="color"><a href="#color_section">Color</a></li>
-          <li id="spacing"><a href="#spacing_section">Spacing</a></li>
-          <li id="typography"><a href="#typography_section">Typography</a></li>
-          <li id="components"><a href="#components_section">Components</a></li>
-        </ul>
-      </nav>
-      <div class="spacer"></div>
-      <main id="main-doc">
-        <section id="tone_section" class="main-section">
-          <header>Tone</header>
-          <p>SolarCloud UI tries to have a clean tone overall. The styles should match the UI, which represents emergent technology, cleanliness, and education.</p>
-        </section>
-        <section id="branding_section" class="main-section">
-          <header>Branding</header>
-          <h1>Logo Guidelines</h1>
-          <ul>
-            <li>Don’t add additional shadows or lighting effects, modify colors, or change the orientation.</li>
-            <li>When positioning the logo beside other elements, please ensure there is sufficient outer padding.</li>
-          </ul>
-        </section>
-        <section id="color_section" class="main-section">
-          <header>Color</header>
-          <p>This is the primary color palette.</p>
-          <div class="tiles">
-            <div>
-              <span>brand-white</span>
-              <code>#fffffe;</code>
-            </div>
-            <div>
-              <span>cod</span>
-              <code>#111111;</code>
-            </div>
-            <div>
-              <span>black-russian</span>
-              <code>#242528;</code>
-            </div>
-            <div>
-              <span>mountain-mist</span>
-              <code>#959595;</code>
-            </div>
-            <div>
-              <span>alabaster</span>
-              <code>#f8f8f8;</code>
-            </div>
-            <div>
-              <span>shark</span>
-              <code>#232527;</code>
-            </div>
-            <div>
-              <span>vermillion</span>
-              <code>#ff4204;</code>
-            </div>
-            <div>
-              <span>pizazz</span>
-              <code>#ff8a05;</code>
-            </div>
-          </div>
-        </section>
-        <section id="spacing_section" class="main-section">
-          <header>Spacing</header>
-          <p>Spacing can be applied using margin or padding. There are several available spacing sizes. Both margin and padding share the same predefined scale.</p>
-          <div>
-            <p>Spacing after <code>&lt;section&gt;&lt;/section&gt;</code> should normally be 100px.</p>
-          </div>
-        </section>
-        <section id="typography_section" class="main-section">
-          <header>Typography</header>
-          <p>SolarCloud's font family is Open Sans.</p>
-          <code>font: 100% 'Open Sans', sans-serif, Arial;</code>
-          <div class="example-text example-text--upper">
-            <span>a</span><span>b</span><span>c</span><span>d</span><span>e</span><span>f</span><span>g</span><span>h</span><span>i</span><span>j</span><span>k</span><span>l</span><span>m</span><span>n</span><span>o</span><span>p</span><span>q</span><span>r</span><span>s</span><span>t</span><span>u</span><span>v</span><span>w</span><span>x</span><span>y</span><span>z</span>
-          </div>
-          <div class="example-text">
-            <span>a</span><span>b</span><span>c</span><span>d</span><span>e</span><span>f</span><span>g</span><span>h</span><span>i</span><span>j</span><span>k</span><span>l</span><span>m</span><span>n</span><span>o</span><span>p</span><span>q</span><span>r</span><span>s</span><span>t</span><span>u</span><span>v</span><span>w</span><span>x</span><span>y</span><span>z</span>
-          </div>
-          <div class="example-text">0123456789</div>
-          <p></p>
-        </section>
-        <section id="components_section" class="main-section">
-          <header>Components</header>
-          <div class="components-container">
-            <div>
-              <span>Default Button</span>
-              <button>See More</button>
-            </div>
-            <div>
-              <span>Sunburst Button</span>
-              <button class="--red-background">Join SolarCloud</button>
-            </div>
-            <div>
-              <span>Empty Button</span>
-              <button class="--cod-text --weight-600 --white-background --mountain-mist-border">Go to PV Solutions</button>
-            </div>
-          </div>
-        </section>
-      </main>
-    </div>
+  <div class="button-container">
+    <span>1</span>
+     <span>2</span>
+     <span>3</span>
+     <span>4</span>
+     <span>5</span>
+     <span>6</span>
+     <span>7</span>
+     <span>8</span>
+     <span>9</span>
+     <span>0</span> 
   </div>
-  <div class="page">
-    <div class="backgrounds">
-      <div class="top-background"></div>
-      <div class="middle-background"></div>
-      <div class="bottom-background"></div>
-    </div>
-    <div class="content-container">
-      
-      <main>
-        <section class="hero">
-          <div class="hero-row">
-            <div class="image-block"></div>
-            <div class="color-block"></div>
-            <div class="text-block">
-              <h1>Use 100% of Your Own Solar Power</h1>
-              <div>
-                <p>Become truly independent with SolarCloud, 365 days per year</p>
-                <button>See More</button>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="value-proposition" class="value-section media-row page-content-padding-left">
-          <div class="value-text">
-            <h1>Why use SolarCloud?</h1>
-            <p>SolarCloud adds virtual energy storage to your PV system. Access your saved energy during the next heat wave or when a storm knocks out your neighborhood's power. We’re able to offset expensive electricity prices because our solar panels produce energy much more efficiently than traditional utilities. You also save money by paying for power at a rate that’s lower than what your utility can provide.</p>
-            <div>
-              
-            </div>
-          </div>
-          <div>
-            <div class="feature-cards">
-              <div><span>Independence</span></div>
-              <div><span>Use Your Own Electricity</span></div>
-            </div>
-            <div class="feature-cards">
-              <div><span>Energy Security</span></div>
-              <div><span>Lower Bills</span></div>
-            </div>
-          </div>
-        </section>
-        <section class="video-section media-row page-content-padding-left">
-          <div class="video-container">
-            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/UJ8XW9AgUrw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <div class="video-text">
-            <h1>How does it work?</h1>
-            <a class="brand-button" target="_blank" href="https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page/">Requirements</a>
-          </div>
-        </section>
-        <section class="sales-section media-row page-content-padding-left">
-          <div class="sales-text">
-            <h1>Want to Order a PV solution? Contact Your Local SolarCloud Rep</h1>
-            <button id="requestRep">Contact Us</button>
-          </div>
-          <div id="salesRep"></div>
-        </section>
-        <section class="contact-section">
-          <div class="form-container">
-            <h1>Sign Up for Our Newsletter</h1>
-            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
-              <div class="field-row">
-                <div>
-                  <label id="email-label" for="email">Email:</label>
-                  <input name="email" id="email" type="email" placeholder="Email" required>
-                </div>
-                <div>
-                  <input id="submit" type="submit">
-                </div>
-              </div>
-            </form>
-          </div>
-        </section>
-      </main>
-    </div>
-  </div>
+  
+
   <script src="index.js"></script>
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
