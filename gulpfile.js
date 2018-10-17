@@ -12,8 +12,8 @@ gulp.task('serve', ['sass'], function() {
     files: "styles.css",
     // httpd-vhosts.conf users:
     open: "external",
-    host: "fcc-technical-document.test",
-    proxy: "fcc-technical-document.test/public",
+    host: "calculator.test",
+    proxy: "calculator.test/public",
     port: 3000
   });
 
