@@ -31,4 +31,35 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
+  grid-gap: 7px;
+}
+
+.nine {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+}
+
+.eight {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+
+.six {
+  grid-row: 3 / 4;
+  grid-column: 3 / 4;
+}
+
+.five {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+}
+
+.three {
+  grid-row: 4 / 5;
+  grid-column: 3 / 4;
+}
+
+.two {
+  grid-row: 4 / 5;
+  grid-column: 2 / 3;
 }
